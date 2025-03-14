@@ -54,6 +54,7 @@ Download Setup file.
 - **Exploratory Analysis:** PCA, MDS, Correspondence Analysis.
 - **Statistical Analysis:** T-tests, ANOVA, MANOVA.
 - **Clustering & Classification:** K-Means, DBSCAN, Decision Trees.
+- **Exploratory Analysis:** CA, PCA, MDS, EFA, CFA (with mediation analysis)
 - **Time Series Analysis:** ARIMA, Holt-Winters, Moving Averages.
 
 #### **Machine Learning Menu**
@@ -61,32 +62,6 @@ Download Setup file.
 - **Supervised Learning:** Linear Regression, Logistic Regression, Random Forests, SVM, Neural Networks.
 - **Unsupervised Learning:** K-Means, Hierarchical Clustering.
 - **Model Evaluation:** Predictions, accuracy measures, confusion matrix.
-
-#### **Marketing Analytics Menu**
-
-- **Customer Segmentation:** K-Means Clustering.
-- **RFM Analysis:** Recency, Frequency, and Monetary Segmentation.
-- **CLV Prediction:** Lifetime value estimation.
-- **Ad Campaign Analysis:** Effectiveness evaluation.
-
-#### **Financial Analytics Menu**
-
-- **Portfolio Optimization:** Efficient Frontier, Sharpe Ratio.
-- **Fraud Detection:** Machine Learning models for anomaly detection.
-- **Credit Risk Analysis:** Risk score evaluation.
-- **Financial Statement Analysis:** Ratio calculations, balance sheet evaluations.
-
-#### **Meta-Analysis Menu**
-
-- **Fixed Effects & Random Effects Models.**
-- **Heterogeneity & Publication Bias Tests.**
-- **Forest Plots, Funnel Plots, Summary Tables.**
-
-#### **Optimization & Supply Chain Analytics**
-
-- **Linear & Non-linear Programming.**
-- **Capacity Planning & Resource Optimization.**
-- **Process Mining & Workflow Analysis.**
 
 #### **Plots Menu**
 
