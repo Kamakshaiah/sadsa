@@ -1,116 +1,120 @@
-# SADSA (Software Appliation for Data Science and Analytics)
+# sadsa-os
+# SADSA — Software Application for Data Science and Analytics
 
-## Overview
-
-The **SADSA** is an interactive Python-based data analysis tool with a built-in **data grid, statistical modeling, machine learning, and visualization capabilities**. Designed for researchers, analysts, and data enthusiasts, it enables **data editing, transformation, exploratory analysis, machine learning modeling, financial analytics, and reporting**.
-
----
-
-## Features
-
-- **Load, edit, and transform CSV files** with an interactive **data grid**.
-- **Data standardization** (Min-Max Scaling, Z-score Normalization, Log Transformation, etc.).
-- **Statistical Analysis**: Summary statistics, hypothesis testing (T-tests, ANOVA, MANOVA), normality tests, correlation analysis.
-- **Machine Learning**: Linear & Logistic Regression, Decision Trees, Random Forest, SVM, KNN, Neural Networks.
-- **Marketing Analytics**: Customer segmentation, RFM analysis, CLV prediction, sentiment analysis, ad campaign analysis. [Available in Advanced Applications]
-- **Financial Analytics**: Portfolio optimization, fraud detection, credit risk analysis, financial statement analysis. [Available in Advanced Applications]
-- **Meta-Analysis & Bibliometrics**: Fixed & Random Effects models, citation analysis, co-authorship networks. [Available in Advanced Applications]
-- **Time Series Analysis**: ARIMA, SARIMA, Holt-Winters, moving averages, stationarity tests.
-- **Exploratory & Cluster Analysis**: PCA, MDS, Correspondence Analysis, K-Means, DBSCAN.
-- **Optimization & Supply Chain Analytics**: Linear & Non-linear programming, capacity planning, process mining. [Available in Advanced Applications]
-- **Custom Plots**: Histograms, scatter plots, boxplots, word clouds, efficient frontier plots, etc.
-- **Download Reports** in **MS Word & PDF formats**.
+**Version:** V-02.25.0.0.1  
+**Author:** Dr. Kamakshaiah Musunuru  
+**Contact:** dr.m.kamakshaiah@gmail.com  
+**GitHub:** [Dr. Kamakshaiah Musunuru](https://github.com/Kamakshaiah)  
 
 ---
 
-## Installation
+## 🧠 Overview
 
-Download Setup file. 
+**SADSA (Software Application for Data Science and Analytics)** is a Python-based desktop application designed to simplify statistical analysis, machine learning, and data visualization for students, researchers, and data professionals.  
 
-## Usage Guide
-
-### **Main Menus & Features**
-
-#### **File Menu**
-
-- **Open CSV File:** Load a CSV file into the data grid.
-- **Save Data:** Save modified data.
-- **Save Data File:** Export the modified dataset as a CSV file.
-- **Clear Data:** Clears all data from the grid.
-- **View License:** Check software license type.
-- **Exit:** Close the application.
-
-#### **Edit Menu**
-
-- **Rename Columns:** Change column headers.
-- **Compute Variable:** Create new variables using formulas.
-- **Recode Variable:** Modify categorical data.
-- **Missing Data Treatment:** Handle NaN values.
-- **Set Values:** Update specific data points.
-- **Show Features:** Display dataset summary.
-
-#### **Data Analytics Menu**
-
-- **Exploratory Analysis:** PCA, MDS, Correspondence Analysis.
-- **Statistical Analysis:** T-tests, ANOVA, MANOVA.
-- **Clustering & Classification:** K-Means, DBSCAN, Decision Trees.
-- **Exploratory Analysis:** CA, PCA, MDS, EFA, CFA (with mediation analysis)
-- **Time Series Analysis:** ARIMA, Holt-Winters, Moving Averages.
-
-#### **Machine Learning Menu**
-
-- **Supervised Learning:** Linear Regression, Logistic Regression, Random Forests, SVM, Neural Networks.
-- **Unsupervised Learning:** K-Means, Hierarchical Clustering.
-- **Model Evaluation:** Predictions, accuracy measures, confusion matrix.
-
-#### **Plots Menu**
-
-- **Custom Graphs:** Boxplots, histograms, scatter plots, word clouds.
-- **Bivariate & Multivariate Plots:** Visualizing relationships between variables.
-
-#### **Help Menu**
-
-- **Contact:** Amchik Solutions, India.
-- **Author:** Dr. Kamakshaiah Musunuru.
-- **Version:** 02.25.0.0.1.
-- **About:** Software for data science and analytics.
+Built using **Tkinter** for the GUI, SADSA provides a menu-driven interface for handling datasets, applying transformations, running advanced statistical tests, machine learning algorithms, and generating insightful plots — all without writing code.
 
 ---
 
-## Sample Output
+## 💡 Features
 
-### **Data Grid Preview**
+### 📂 **File Operations**
+- Open and import CSV datasets.
+- Save processed data.
+- Clear data from the workspace.
+- Exit with ease.
 
-```
-+---------+-------------+-------------+
-|  ID     | Age        | Salary      |
-+---------+-------------+-------------+
-|   1     |  25        | 50000       |
-|   2     |  30        | 60000       |
-|   3     |  35        | 70000       |
-+---------+-------------+-------------+
-```
+### ✏️ **Data Editing**
+- Rename columns.
+- Compute new variables.
+- Recode variables.
+- Handle missing data.
+- Set fixed values.
 
-### **Sample Report (RFM Analysis)**
+### 🔁 **Transformations**
+- **Data Simulations** and synthetic data generation.
+- **Multivariate Normal Distribution** sampling.
+- **Data Decomposition**: Cholesky, QR, SVD, Eigen.
+- **Data Standardization**: Min-Max, Z-Score, Decimal Scaling, Log & Log-Normal transformations.
 
-```
-Customer Segmentation using RFM Analysis
---------------------------------------
-Recency Score: 1 to 5
-Frequency Score: 1 to 5
-Monetary Score: 1 to 5
-Segment: High Value / Medium Value / Low Value
-```
+### 📊 **Data Analytics**
+- **Descriptive Statistics**: Frequency Tables, Summary Stats.
+- **Inferential Statistics**: T-Test, Chi-Square, Normality Tests, ANOVA, MANOVA.
+- **Factor Analysis**: Exploratory (EFA) & Confirmatory (CFA).
+- **Correlation & Regression Analysis**.
+- **Cluster Analysis**: K-Means, Hierarchical.
+- **Time Series Analysis**: Stationarity, Decomposition, Holt-Winters, Moving Averages.
 
-### **Sample Plot (Portfolio Optimization - Efficient Frontier)**
+### 🤖 **Machine Learning Models**
+- Logistic Regression.
+- Decision Tree.
+- Random Forest.
+- Naive Bayes.
+- K-Nearest Neighbors.
+- Neural Network.
+- Support Vector Machine (SVM).
 
-- A plot showing the risk-return trade-off for optimized portfolios.
+### 📈 **Visualization**
+- Easy access to plot generation with customizable options.
+
+### ℹ️ **Help & About**
+- Contact Information.
+- Author Bio.
+- Versioning.
+- Application Overview.
 
 ---
 
-## Contact
+## ⚙️ Installation
 
-**Dr. Kamakshaiah Musunuru**\
-📧 Email: [dr.m.kamakshaiah@gmail.com](mailto\:dr.m.kamakshaiah@gmail.com)\
-🔗 GitHub: [Kamakshaiah](https://github.com/Kamakshaiah)
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Kamakshaiah/SADSA.git
+    ```
 
+2. Navigate to the project folder:
+    ```bash
+    cd SADSA
+    ```
+
+3. Install the required Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the application:
+    ```bash
+    python sadsa.py
+    ```
+
+---
+
+## 📌 Dependencies
+- `tkinter` — GUI Framework.
+- `pandas` — Data manipulation.
+- `numpy` — Numerical computations.
+- `scipy` — Statistical functions.
+- `scikit-learn` — Machine Learning.
+- `matplotlib` — Plotting & Visualization.
+
+---
+
+## 🏆 About
+
+SADSA is developed by **Amchik Solutions, India** as a comprehensive, intuitive, and accessible tool for data science education and applied research.
+
+---
+
+## 💬 Contact
+
+For feedback, collaboration, or support, please reach out:  
+**Email:** dr.m.kamakshaiah@gmail.com  
+
+---
+
+If you want, I can also help you write:
+- `requirements.txt`
+- example screenshots section
+- badges (like `Python Version`, `License`, etc.)
+
+Want me to add those too?
