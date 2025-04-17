@@ -12,7 +12,7 @@
 
 **SADSA (Software Application for Data Science and Analytics)** is a Python-based desktop application designed to simplify statistical analysis, machine learning, and data visualization for students, researchers, and data professionals.  
 
-Built using **Tkinter** for the GUI, SADSA provides a menu-driven interface for handling datasets, applying transformations, running advanced statistical tests, machine learning algorithms, and generating insightful plots — all without writing code.
+Built using **Python** for the GUI, SADSA provides a menu-driven interface for handling datasets, applying transformations, running advanced statistical tests, machine learning algorithms, and generating insightful plots — all without writing code.
 
 ---
 
